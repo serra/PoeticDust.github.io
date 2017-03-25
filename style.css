@@ -4,7 +4,7 @@ color: Black;
 font-family: sans-serif;
 }
 a:link {
-    color: blue;
+    color: black;
     background-color: transparent;
     text-decoration: none;
 }
@@ -19,7 +19,13 @@ a:hover {
     text-decoration: underline;
 }
 a:active {
-    color: yellow;
+    color: orange;
     background-color: transparent;
     text-decoration: underline;
+}
+
+a.btn {
+	    border: 1px solid black;
+    padding: 5px;
+    background-color: grey;
 }
