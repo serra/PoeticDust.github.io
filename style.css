@@ -29,3 +29,8 @@ a.btn {
     padding: 5px;
     background-color: grey;
 }
+
+ul.ingredienten {
+    list-style: none;
+    font-style: italic;
+}
