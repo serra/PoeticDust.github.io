@@ -14,12 +14,12 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    color: red;
+    color: #dbdbdb;
     background-color: transparent;
     text-decoration: underline;
 }
 a:active {
-    color: orange;
+    color: #dbdbdb;
     background-color: transparent;
     text-decoration: underline;
 }
