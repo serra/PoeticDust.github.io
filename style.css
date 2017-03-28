@@ -4,12 +4,12 @@ color: Black;
 font-family: sans-serif;
 }
 a:link {
-    color: black;
+    color: #a0a0a0;
     background-color: transparent;
     text-decoration: none;
 }
 a:visited {
-    color: black;
+    color: #a0a0a0;
     background-color: transparent;
     text-decoration: none;
 }
