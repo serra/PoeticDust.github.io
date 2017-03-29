@@ -1,36 +1,64 @@
 body {
-background-color: Green;
+background-color: #d1d1d1;
 color: Black;
 font-family: sans-serif;
 }
 a:link {
-    color: black;
+    color: #dbdbdb;
     background-color: transparent;
     text-decoration: none;
 }
 a:visited {
-    color: purple;
+    color: #dbdbdb;
     background-color: transparent;
     text-decoration: none;
 }
 a:hover {
-    color: red;
+    color: #dbdbdb;
     background-color: transparent;
     text-decoration: underline;
 }
 a:active {
-    color: orange;
+    color: #dbdbdb;
     background-color: transparent;
     text-decoration: underline;
 }
+body {margin:0;}
 
-a.btn {
-	    border: 1px solid black;
-    padding: 5px;
-    background-color: grey;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-ul.ingredienten {
-    list-style: none;
-    font-style: italic;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+}
+
+.active {
+    background-color: #111;
+}
+li {
+    border-right: 1px solid #828282;
+}
+
+li:last-child {
+    border-right: none;
 }
